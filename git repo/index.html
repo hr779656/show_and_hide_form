@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./about.css">
+</head>
+<body>
+    
+    <!-- =========== sign in form ===================== -->
+
+    <section id="sec-1">
+        <div id="form1">
+            <div class="div_1">
+                <p class="div_1_p">Sign In</p>
+            </div>
+            <div class="div_2">
+                <p class="div_2_p">Email:</p>
+                <input class="div_2_inp" type="text">
+            </div>
+            <div class="div_3">
+                <p class="div_3_p1">Password:</p>
+                <input class="div_3_inp" type="text">
+                <p class="div_3_p2">forgot password?</p>
+            </div>
+            <div class="div_4">
+                <button class="div_4_btn">Sign in</button>
+                <div class="div_4_d">
+                    <p class="d_p1">
+                        <i class="fa-brands fa-facebook"></i>
+                    </p>
+                    <p class="d_p2">
+                        <i class="fa-brands fa-google"></i>
+                    </p>
+                    <p class="d_p3">
+                        <i class="fa-brands fa-twitter"></i>
+                    </p>
+                </div>
+                <p class="div_4_p">
+                    Don't have an account? <button onclick="signup()" id="p_btn">Sign up</button></p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ==================== sign up form ======================  -->
+
+    <section id="sec-2">
+
+        <div id="form2">
+            <div class="d_1">
+                <p class="d1_p">Sign Up</p>
+            </div>
+            <div class="d_2">
+                <p class="d2_p">First Name:</p>
+                <input class="d2_inp" type="text">
+            </div>
+            <div class="d_3">
+                <p class="d3_p">Last Name:</p>
+                <input class="d3_inp" type="text">
+            </div>
+            <div class="d_4">
+                <p class="d4_p">Email:</p>
+                <input class="d4_inp" type="text">
+            </div>
+            <div class="d_5">
+                <p class="d5_p1">Password:</p>
+                <input class="d5_inp" type="text">
+            </div>
+            <div class="d_6">
+                <button class="d6_btn">Sign up</button>
+                <p class="d6_p">
+                    Already a member? <button onclick="signin()" id="d6p_btn">Sign in</button></p>
+                    <div class="d6_d">
+                        <p class="d6d_p1">
+                            <i class="fa-brands fa-facebook"></i>
+                        </p>
+                        <p class="d6d_p2">
+                            <i class="fa-brands fa-google"></i>
+                        </p>
+                        <p class="d6d_p3">
+                            <i class="fa-brands fa-twitter"></i>
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <script src="./about.js"></script> -->
+
+    <script src="./about.js"></script>
+
+</body>
+</html>

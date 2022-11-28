@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+/* ============== sign in form =================== */
+
+#sec-1{
+  margin-top: 20px;
+  height: 90vh;
+  width:100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#form1{
+    margin: auto;
+    height: 100%;
+    width:28%;
+    background: #F6F7D3;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgb(0,0,0);
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.4fr 0.8fr 0.8fr 2fr;
+    grid-template-areas: 
+     "div_1"
+     "div_2"
+     "div_3"
+     "div_4";
+}
+
+.div_1{
+  grid-area: div_1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div_1_p{
+  color: #000;
+  font-size: 28pt;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: underline 6px;
+}
+
+/* ========== Div_1 END =========== */
+
+.div_2{
+  grid-area: div_2;
+  margin: 0px 25px;
+}
+.div_2_p{
+  font-size: 16pt;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+.div_2_inp{
+  height: 30px;
+  width: 90%;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 5px;
+  box-shadow: 0 5px 10px rgb(0,0,0);
+}
+
+/* ================= div_2 End =================== */
+
+
+.div_3{
+  grid-area: div_3;
+  margin: 0px 25px;
+}
+.div_3_p1{
+  font-size: 16pt;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+.div_3_inp{
+  height: 30px;
+  width: 90%;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 5px;
+  box-shadow: 0 5px 10px rgb(0,0,0);
+}
+.div_3_p2{
+    color: rgb(0,0,0,0.5);
+    margin-top: 8px;
+    font-style: italic;
+    font-size: 10pt;
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: underline 2px;
+}
+
+/* ============= div_3 End ===================== */
+
+
+/* ====== div_4 sign in btn =========  */
+
+.div_4{
+  grid-area: div_4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.div_4_btn{
+  text-decoration: none;
+  cursor: pointer;
+  background: #540c0c;
+  color: #fff;
+  height:36px;
+  width:30%;
+  font-size: 12pt;
+  border-radius: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.div_4_btn:hover{
+  background: #871f1f;
+}
+
+/* ====== div_4 sign in btn end =========  */
+
+
+/* ========= div_4 icons div =========== */
+
+.div_4_d{
+  height: 40%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.d_p1{
+  font-size: 18pt;
+}
+.d_p2{
+  font-size: 18pt;
+}
+.d_p3{
+  font-size: 18pt;
+}
+
+/* ========= div_4 icons div End =========== */
+
+
+/* ============ div_4 text and btn =========== */
+
+.div_4_p{
+  font-family: 'Poppins', sans-serif;
+}
+
+#p_btn{
+  font-size: 12pt;
+  color: rgb(44, 44, 207);;
+  padding: 0;
+  border: none;
+  background: none;
+  text-decoration: underline 2px;
+  font-family: 'Poppins', sans-serif;
+}
+#p_btn:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+
+/* ============================== sign up form ================= */
+
+#sec-2{
+  margin-top: 10px;
+  height: 95vh;
+  width:100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+#form2{
+  margin: auto;
+   height: 100%;
+    width:28%;
+    background: #F6F7D3;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgb(0,0,0);
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows:1.2fr 0.9fr 0.9fr 0.9fr 0.9fr 2.2fr;
+    grid-template-areas:
+    "d_1"
+    "d_2"
+    "d_3"
+    "d_4"
+    "d_5"
+    "d_6";
+}
+.d_1{
+  grid-area: d_1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.d1_p{
+  color: #000;
+  font-size: 28pt;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: underline 6px;
+}
+
+/* ============= sign up form div_1 end =============== */
+
+
+.d_2{
+  grid-area: d_2;
+  margin: 0px 25px;
+}
+.d2_p{
+  font-size: 16pt;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+.d2_inp{
+  height: 30px;
+  width: 90%;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 5px;
+  box-shadow: 0 5px 10px rgb(0,0,0);
+}
+
+/* ============= sign up form div_2 end =============== */
+
+.d_3{
+  grid-area: d_3;
+  margin: 0px 25px;
+}
+.d3_p{
+  font-size: 16pt;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+.d3_inp{
+  height: 30px;
+  width: 90%;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 5px;
+  box-shadow: 0 5px 10px rgb(0,0,0);
+}
+
+/* ============= sign up form div_3 end =============== */
+
+.d_4{
+  grid-area: d_4;
+  margin: 0px 25px;
+}
+.d4_p{
+  font-size: 16pt;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+.d4_inp{
+  height: 30px;
+  width: 90%;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 5px;
+  box-shadow: 0 5px 10px rgb(0,0,0);
+}
+
+/* ============= sign up form div_4 end =============== */
+
+
+.d_5{
+  grid-area: d_5;
+  margin: 0px 25px;
+}
+.d5_p1{
+  font-size: 16pt;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+.d5_inp{
+  height: 30px;
+  width: 90%;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 5px;
+  box-shadow: 0 5px 10px rgb(0,0,0);
+}
+
+/* ============= sign up form div_5 end =============== */
+
+
+.d_6{
+  grid-area: d_6;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.d6_btn{
+  text-decoration: none;
+  cursor: pointer;
+  background: #540c0c;
+  color: #fff;
+  height:36px;
+  width:30%;
+  font-size: 12pt;
+  border-radius: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.d6_btn:hover{
+  background: #871f1f;
+}
+
+/* ============= sign up btn div_6 end  =============== */
+
+.d6_p{
+  font-family: 'Poppins', sans-serif;
+}
+#d6p_btn{
+  font-size: 12pt;
+  color: rgb(44, 44, 207);;
+  padding: 0;
+  border: none;
+  background: none;
+  text-decoration: underline 2px;
+  font-family: 'Poppins', sans-serif;
+}
+#d6p_btn:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+/* ============ sign up text and btn div_6 end =========== */
+
+
+.d6_d{
+  height: 40%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.d6d_p1{
+  font-size: 18pt;
+}
+.d6d_p2{
+  font-size: 18pt;
+}
+.d6d_p3{
+  font-size: 18pt;
+}
